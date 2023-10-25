@@ -1,0 +1,16 @@
+write a blog on the difference between document and window objects.
+
+Windows:-
+   - The window object represents the global browser window or the global context in a webpage.
+   - The window object is at the highest level of the javascript object  hierachy in the browser.
+   - The window object is responsible for managing the browser window, including functions like opening and closing window,setting timeouts and intervals,  and managing the global environment.
+   - It is  often used  for operations related to the browser itself, such as opening new window,setting timers, and handling global events like onload and onunload.
+   - It contains global variables,functions,and  other objects.
+
+Document:-
+ 
+   - The document object is a property of the window object.
+   - It is a child of window object and represents the html content of the currently loaded webpage.
+   - The document object is responsible for  representing the html content within the browser window.
+   - It is used for interacting  with the contant of  the webpage including selecting and modifing html  elements, handing user interactions and manipulating the DOM.
+   - It allows you to access and manipulate the structure,elemnets, and content of the wepage including Dom manipulation and event handling.
